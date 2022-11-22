@@ -1,0 +1,8 @@
+*.mp4
+*.png
+*.docx
+*.pdf
+*/db/
+*/incremental_db/
+
+

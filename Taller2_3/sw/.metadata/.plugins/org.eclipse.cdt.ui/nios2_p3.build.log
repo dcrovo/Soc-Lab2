@@ -1,0 +1,9 @@
+10:29:52 **** Incremental Build of configuration Nios II for project nios2_p3 ****
+make all 
+Info: Building ../nios2_p3_bsp/
+make --no-print-directory -C ../nios2_p3_bsp/
+[BSP build complete]
+[nios2_p3 build complete]
+
+10:29:52 Build Finished (took 115ms)
+

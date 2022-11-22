@@ -1,0 +1,21 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios2_p3.sevseg -pg 1 -lvl 3 -y 30
+preplace inst nios2_p3.cpu.clock_bridge -pg 1
+preplace inst nios2_p3.sysid -pg 1 -lvl 3 -y 310
+preplace inst nios2_p3.onchip_mem -pg 1 -lvl 3 -y 130
+preplace inst nios2_p3.cpu -pg 1 -lvl 2 -y 100
+preplace inst nios2_p3.clk -pg 1 -lvl 1 -y 170
+preplace inst nios2_p3.cpu.cpu -pg 1
+preplace inst nios2_p3.cpu.reset_bridge -pg 1
+preplace inst nios2_p3 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios2_p3.switch -pg 1 -lvl 3 -y 390
+preplace netloc EXPORT<net_container>nios2_p3</net_container>(SLAVE)clk.clk_in,(SLAVE)nios2_p3.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios2_p3</net_container>(SLAVE)clk.clk_in_reset,(SLAVE)nios2_p3.reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>nios2_p3</net_container>(MASTER)cpu.debug_reset_request,(SLAVE)sysid.reset,(MASTER)clk.clk_reset,(SLAVE)sevseg.reset,(SLAVE)cpu.reset,(SLAVE)switch.reset,(SLAVE)onchip_mem.reset1) 1 1 2 280 440 680
+preplace netloc FAN_OUT<net_container>nios2_p3</net_container>(SLAVE)sysid.clk,(SLAVE)switch.clk,(SLAVE)cpu.clk,(SLAVE)onchip_mem.clk1,(MASTER)clk.clk,(SLAVE)sevseg.clk) 1 1 2 260 60 700
+preplace netloc INTERCONNECT<net_container>nios2_p3</net_container>(SLAVE)cpu.debug_mem_slave,(SLAVE)sysid.control_slave,(MASTER)cpu.data_master,(SLAVE)sevseg.s1,(SLAVE)switch.s1,(SLAVE)onchip_mem.s1,(MASTER)cpu.instruction_master) 1 1 2 300 460 660
+preplace netloc EXPORT<net_container>nios2_p3</net_container>(SLAVE)nios2_p3.switch,(SLAVE)switch.external_connection) 1 0 3 NJ 420 NJ 420 NJ
+preplace netloc EXPORT<net_container>nios2_p3</net_container>(SLAVE)sevseg.external_connection,(SLAVE)nios2_p3.sevseg) 1 0 3 NJ 40 NJ 40 NJ
+levelinfo -pg 1 0 50 890
+levelinfo -hier nios2_p3 60 90 420 730 880

@@ -1,0 +1,2428 @@
+!SESSION 2022-09-21 00:19:18.750 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_345
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-09-21 00:19:26.781
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-21 00:21:16.713
+!MESSAGE Indexed 'nios2_4p_bsp' (75 sources, 187 headers) in 1.36 sec: 5,919 declarations; 8,601 references; 55 unresolved inclusions; 4 syntax errors; 117 unresolved names (0.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-21 00:21:17.296
+!MESSAGE Indexed 'nios2_4p' (1 sources, 32 headers) in 0.057 sec: 1,050 declarations; 1,615 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:21:57.676
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:21:57.686
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:21:58.916
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:22:48.762
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:22:49.390
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:22:49.390
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:22:50.621
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:22:59.183
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:22:59.332
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:22:59.333
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:23:00.560
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:38.523
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:24:38.668
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:38.669
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:39.897
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:43.262
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:24:43.410
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:43.410
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:24:44.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:31.745
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:25:31.898
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:31.899
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:33.127
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:36.684
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:25:36.835
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:36.836
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:25:38.062
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:19.519
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:36:20.209
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:20.209
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:21.446
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:35.648
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:36:35.801
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:35.801
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:37.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:47.531
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:36:47.683
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:47.684
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:48.911
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:56.223
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:36:56.371
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:56.372
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:36:57.602
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:50.262
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:37:50.414
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:50.415
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:51.644
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:58.312
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:37:58.472
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:58.473
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:37:59.701
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:04.703
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:38:04.860
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:04.861
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:06.091
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:27.532
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:38:27.688
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:27.688
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:28.917
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:35.841
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:38:35.989
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:35.990
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:38:37.217
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:40.002
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:40:40.150
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:40.150
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:41.381
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:47.469
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:40:47.621
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:47.622
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:40:48.851
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:04.746
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:41:04.901
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:04.901
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:06.133
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:08.442
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:41:08.593
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:08.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:09.822
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:21.736
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:41:21.888
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:21.889
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:23.118
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:26.211
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:41:26.356
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:26.357
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:27.588
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:31.224
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:41:31.370
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:31.370
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:41:32.599
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:21.226
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:50:21.386
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:21.387
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:22.621
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:27.607
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:50:27.766
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:27.767
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:50:28.999
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:00.620
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:52:00.777
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:00.778
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:02.011
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:32.373
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:52:32.538
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:32.538
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:52:33.778
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:07.105
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:07.269
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:07.270
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:08.509
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:19.962
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:20.126
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:20.127
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:21.361
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:38.317
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:38.462
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:38.463
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:39.701
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:44.156
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:44.301
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:44.301
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:45.541
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:48.471
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:48.617
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:48.618
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:49.853
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:53.902
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:53:54.060
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:54.060
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:53:55.297
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:34.792
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:54:34.939
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:34.939
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:36.178
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:45.122
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:54:45.267
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:45.267
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:46.503
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:50.224
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:54:50.381
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:50.382
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:51.620
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:52.176
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 00:54:52.331
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:52.331
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 00:54:53.571
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:43:19.703
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:43:19.850
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:43:19.850
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:43:21.088
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:44:42.695
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:44:42.852
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:44:42.852
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:44:44.104
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:53:28.670
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+!SESSION 2022-09-21 07:53:38.257 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_345
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-21 07:53:40.638
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-09-21 07:53:46.376
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:53:56.122
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:53:56.132
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:53:57.349
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:54:02.503
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:54:02.655
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:54:02.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:54:03.872
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:36.360
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:55:36.508
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:36.509
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:37.732
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:41.869
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:55:42.024
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:42.024
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:55:43.243
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:35.285
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:56:35.431
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:35.431
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:36.649
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:38.713
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:56:38.870
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:38.871
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:40.089
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:42.419
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:56:42.570
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:42.570
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:43.789
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:48.166
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:56:48.324
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:48.325
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:56:49.543
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:04.930
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:57:05.085
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:05.085
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:06.305
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:31.804
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:57:31.956
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:31.956
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:33.177
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:35.118
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 07:57:35.275
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:35.275
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 07:57:36.493
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:36:38.999
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:36:39.158
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:36:39.158
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:36:40.381
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:50:40.312
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:50:40.468
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:50:40.469
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:50:41.693
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:04.466
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:05.227
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:05.228
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:06.455
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:11.139
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:11.285
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:11.286
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:12.511
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:15.081
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:15.236
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:15.237
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:16.464
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:35.801
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:35.964
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:35.964
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:37.189
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:41.974
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:42.120
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:42.120
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:43.345
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:46.160
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:46.319
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:46.320
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:47.545
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:52.394
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 08:53:52.541
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:52.542
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 08:53:53.767
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:45.840
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:00:46.488
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:46.489
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:47.716
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:52.539
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:00:52.685
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:52.686
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:53.915
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:59.497
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:00:59.655
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:00:59.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:00.883
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:06.003
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:06.153
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:06.154
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:07.381
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:11.466
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:11.616
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:11.616
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:12.841
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:17.514
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:17.670
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:17.670
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:18.898
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:22.187
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:22.336
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:22.337
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:23.562
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:31.629
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:31.786
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:31.786
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:33.014
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:37.602
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:37.753
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:37.753
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:38.981
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:45.186
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:01:45.332
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:45.332
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:01:46.557
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:14.448
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:02:14.607
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:14.608
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:15.838
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:20.200
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:02:20.358
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:20.359
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:21.586
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:25.204
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:02:25.349
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:25.350
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:26.579
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:29.323
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:02:29.470
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:29.470
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:30.699
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:42.267
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:02:42.419
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:42.419
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:02:43.648
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:02.076
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:03:02.228
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:02.228
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:03.457
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:03.984
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:03:04.135
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:04.136
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:05.365
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:13.942
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:03:14.098
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:14.099
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:15.326
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:17.377
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:03:17.521
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:17.522
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:03:18.752
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:21:42.303
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:21:42.457
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:21:42.458
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+!SESSION 2022-09-21 09:21:52.947 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_345
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-21 09:21:55.104
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-09-21 09:22:00.968
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 09:22:03.912
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:22:03.922
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 09:22:05.147
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:25.533
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 10:32:25.685
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:25.687
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:26.912
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:30.622
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 10:32:30.778
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:30.779
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 10:32:32.002
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:07:20.084
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:07:20.887
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:07:20.888
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:07:22.127
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:18.489
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:08:18.642
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:18.643
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:19.871
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:22.945
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:08:23.093
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:23.094
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:24.330
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:29.847
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:08:30.002
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:30.003
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:31.234
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:47.386
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:08:47.531
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:47.532
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:48.761
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:52.017
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:08:52.164
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:52.165
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:08:53.392
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:02.506
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:09:02.652
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:02.653
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:03.881
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:07.965
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:09:08.114
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:08.115
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:09:09.343
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:11:23.267
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:11:23.425
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:11:23.425
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:11:24.654
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:24.227
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:22:24.373
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:24.373
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:25.609
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:32.446
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:22:32.597
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:32.597
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:33.832
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:44.080
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:22:44.227
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:44.227
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:45.463
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:51.580
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:22:51.729
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:51.729
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:22:52.965
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:28.566
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:31:28.723
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:28.723
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:29.963
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:43.868
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:31:44.021
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:44.021
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:45.262
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:50.154
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:31:50.312
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:50.312
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:31:51.551
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:26.173
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:37:26.328
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:26.329
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:27.571
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:53.972
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:37:54.123
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:54.123
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:37:55.367
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:38:00.408
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:38:00.555
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:38:00.556
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:38:01.798
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:41:52.792
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:41:52.950
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:41:52.950
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:41:54.196
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:43:49.470
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:43:49.629
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:43:49.629
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:43:50.873
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+!SESSION 2022-09-21 11:56:26.275 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_345
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-21 11:56:28.631
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-09-21 11:56:33.945
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:57:24.185
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:24.193
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:25.408
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:37.254
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:57:37.410
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:37.411
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:38.625
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:44.619
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:57:44.767
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:44.768
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:45.983
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:50.354
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:57:50.504
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:50.505
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:57:51.723
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:00.111
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:00.273
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:00.274
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:01.497
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:04.071
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:04.221
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:04.221
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:05.438
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:08.074
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:08.220
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:08.221
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:09.436
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:17.874
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:18.020
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:18.021
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:19.236
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:22.475
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:22.621
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:22.622
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:23.839
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:29.863
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:30.021
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:30.021
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:31.236
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:33.996
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:34.154
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:34.155
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:35.370
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:38.175
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:38.321
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:38.322
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:39.538
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:42.393
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:42.539
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:42.540
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:43.755
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:58.041
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:58:58.188
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:58.188
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:58:59.405
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:02.209
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:02.367
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:02.367
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:03.583
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:17.001
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:17.155
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:17.155
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:18.372
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:25.868
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:26.029
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:26.029
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:27.247
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:30.396
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:30.554
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:30.554
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:31.774
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:37.146
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:37.300
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:37.300
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:38.519
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:45.875
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:46.028
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:46.029
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:47.245
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:51.731
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:51.887
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:51.888
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:53.103
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:56.125
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 11:59:56.280
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:56.281
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 11:59:57.499
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:05.274
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:00:05.429
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:05.429
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:06.645
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:13.088
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:00:13.244
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:13.244
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:14.461
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:26.067
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:00:26.229
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:26.230
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:27.444
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:31.142
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:00:31.300
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:31.301
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:00:32.520
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:00.089
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:03:00.737
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:00.738
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:01.965
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:22.103
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:03:22.255
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:22.256
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:23.476
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:54.878
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:03:55.038
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:55.039
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:56.260
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:58.421
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:03:58.578
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:58.578
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:03:59.797
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:05.227
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:05.382
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:05.383
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:06.607
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:15.368
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:15.513
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:15.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:16.733
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:18.672
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:18.826
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:18.826
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:20.046
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:23.079
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:23.226
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:23.227
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:24.445
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:27.604
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:27.756
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:27.757
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:28.977
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:39.713
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:04:39.858
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:39.858
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:04:41.078
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:02.298
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:05:02.449
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:02.449
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:03.668
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:07.608
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:05:07.761
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:07.761
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:08.979
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:14.719
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 12:05:14.873
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:14.874
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 12:05:16.093
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:36.546
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:43:37.255
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:37.257
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:38.487
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:49.645
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:43:49.805
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:49.805
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:51.033
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:58.124
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:43:58.275
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:58.276
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:43:59.502
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:02.364
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:44:02.516
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:02.516
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:03.746
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:07.899
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:44:08.049
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:08.049
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:44:09.277
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:45:48.073
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:45:48.218
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:45:48.218
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:45:49.445
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:21.667
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:46:21.820
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:21.821
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:23.053
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:28.768
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:46:28.916
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:28.917
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:30.147
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:34.751
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:46:34.899
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:34.900
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:36.128
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:44.482
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:46:44.632
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:44.632
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:46:45.861
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:47:00.564
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:47:00.724
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:47:00.725
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:47:01.954
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:07.066
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+!SESSION 2022-09-21 13:54:21.257 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_345
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/danielcrovo/intelFPGA_lite/21.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-21 13:54:26.050
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2022-09-21 13:54:31.826
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:54:37.896
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:37.907
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:39.134
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:43.520
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:54:43.678
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:43.679
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:44.903
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:55.639
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:54:55.788
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:55.789
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:54:57.012
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:19.411
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:19.563
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:19.564
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:20.785
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:24.579
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:24.724
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:24.724
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:25.946
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:38.853
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:39.000
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:39.000
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:40.223
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:42.932
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:43.088
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:43.089
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:44.312
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:53.370
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:53.522
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:53.522
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:54.743
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:57.570
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:57:57.721
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:57.721
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:57:58.944
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:03.386
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:58:03.534
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:03.535
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:04.758
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:07.740
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:58:07.888
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:07.889
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:09.108
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:17.929
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:58:18.073
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:18.074
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:19.295
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:44.948
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:58:45.093
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:45.094
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:58:46.316
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:59:52.504
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:59:52.659
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:59:52.660
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:59:53.882
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:59:58.728
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 13:59:58.883
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 13:59:58.884
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:00.105
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:20.585
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:00:20.746
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:20.746
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:21.970
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:25.317
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:00:25.463
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:25.463
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:26.691
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:30.527
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:00:30.672
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:30.673
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:31.897
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:50.912
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:00:51.065
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:51.066
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:52.292
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:57.479
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:00:57.630
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:57.630
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:00:58.856
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:01:04.262
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:01:04.407
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:01:04.407
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:01:05.629
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:35.030
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:06:35.178
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:35.178
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:36.403
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:41.546
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:06:41.705
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:41.705
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:42.929
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:47.243
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:06:47.387
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:47.388
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:06:48.612
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:07:20.274
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:07:20.427
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:07:20.427
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:07:21.651
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:33.486
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:08:33.645
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:33.645
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:34.872
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:43.016
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:08:43.170
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:43.171
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:44.394
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:52.630
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:08:52.787
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:52.787
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:54.011
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:57.430
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:08:57.582
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:57.583
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:08:58.805
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:01.078
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:01.237
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:01.238
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:02.463
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:03.933
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:04.087
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:04.088
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:05.310
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:08.332
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:08.993
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:08.994
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:10.219
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:23.683
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:23.846
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:23.847
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:25.074
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:29.829
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:29.988
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:29.988
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:31.212
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:40.161
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:40.313
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:40.313
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:41.538
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:47.778
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:47.931
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:47.931
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:49.157
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:56.717
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:09:56.878
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:56.878
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:09:58.102
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:10:00.779
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-09-21 14:10:00.936
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:10:00.936
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x210e8 --id=0x0 --timestamp=1663736715]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-09-21 14:10:02.164
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x210e8 --id=0x0 --timestamp=1663736715 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Taller2_4/software/nios2_4p/nios2_4p.elf]
